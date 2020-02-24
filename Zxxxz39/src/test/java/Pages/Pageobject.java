@@ -14,8 +14,9 @@ WebDriver driver;
 public Pageobject(WebDriver driver){
 	this.driver=driver;
 }
+//commented the file
 @FindBy(name="username") WebElement user;
-@FindBy(name="password") WebElement pass;
+@FindBy(name="password1") WebElement pass;
 @FindBy(id="tdb1") WebElement button;
 public void Gcrit(String Uname,String pwd){
 	user.sendKeys(Uname);
